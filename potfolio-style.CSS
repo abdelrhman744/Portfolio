@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #19314b;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+/*#ffd2d5*/
+#logo{
+    width: 6.5em;
+}
+
+.navv a{
+    text-decoration: none;
+    font-weight: 430;
+    color:#ffd2d5;
+    font-size: 1em;
+    padding-left: 90px;
+}
+
+.navv a:hover{
+    color: aliceblue;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/HTML/MyWeb/images/man.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main h2{
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.main h2 span{
+    font-size: 1.8em;
+}
+
+.main h4{
+    color: #ffd2d5;
+    font-weight: 500;
+}
+
+.main-btn{
+    color: black;
+    border: 1px solid #ffd2d5;
+    background-color: #ffd2d5;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    transform: scale(1.1);
+    background-color: #FF9874;
+}
+
+.social i {
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20.23em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15% );
+    border-radius: 20px 20px 20px 20px;
+    padding: 25px 20px;
+    margin: 30px 20px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color: #FF9874;
+}
+
+.cards{
+    background: url(/HTML/MyWeb/images/aboutme.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info h3{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.skill{
+    background: url(/HTML/MyWeb/images/skills.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    width: 20.23em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15% );
+    border-radius: 20px 20px 20px 20px;
+    padding: 25px 20px;
+    margin: 30px 20px;
+    transition: 0.7s ease;
+}
+
+.card2:hover{
+    transform: scale(1.1);
+    background-color: #FFE8C5;
+}
+
+.icon2 i{
+    display: flex;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.icon2 img{
+    display: flex;
+    justify-content: center;
+    width: 2em;
+    margin-bottom: 15px;
+}
+
+
+
+
+.title-work{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.work{
+    background: url(/HTML/MyWeb/images/work.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page{
+    color: aliceblue;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.inf{
+    color: #FF9874;
+    margin-left: 20px;
+}
+
+.inf i{
+    color: #FF9874;
+}
+
+.info1 img{
+    width: 18em;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.info1{
+    margin-left: 20px;
+}
+
+.info1 h3{
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cont ol{
+    color: aliceblue;
+}
+
+
+
+.contac{
+    background: url(/HTML/MyWeb/images/conta.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.so{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 20.23em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15% );
+    border-radius: 20px 20px 20px 20px;
+    padding: 25px 20px;
+    margin: 30px 20px;
+    transition: 0.7s ease;
+}
+
+.block:hover{
+    transform: scale(1.1);
+}
+
+.nam{
+    color: #FF9874;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+}
+
+.im i{
+    display: flex;
+    justify-content: center;
+    font-size: 6em;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
